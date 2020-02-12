@@ -4,11 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON</title>
+    <title>API, QueryStrings</title>
 </head>
 
 <body>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+        <form method="GET">
+            <div>Genre</div>
+            <input type="text" id='genre' name="genre">
+            <div>PageNumber</div>
+            <input type='number' id='pageNumber' name="pageNumber">
+            <div>PageSize</div>
+            <input type="number" id='pageSize' name="pageSize">
+            <br />
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
     <!-- <script src="./js/script.js"></script> -->
     <script src="./js/jonmar.js"></script>
 </body>
