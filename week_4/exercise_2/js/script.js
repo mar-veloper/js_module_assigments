@@ -1,5 +1,6 @@
 const apiUrl1 = "https://pokeapi.co/api/v2/pokemon/ditto/";
 const apiUrl2 = "https://randomuser.me/api/";
+const apiUrl3 = "https://api.rawg.io/api/games?genres=indie";
 
 const wrapperDiv = document.querySelector(".wrapper");
 
